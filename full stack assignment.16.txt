@@ -1,0 +1,28 @@
+1.
+A Regular Expression is used for identifying a search pattern in a text string.
+It also helps in finding out the correctnessof the data and even operations as finding,
+replacing and formatting the data is possible using Regular Expressions.
+2.
+Regular Expression are particularly useful for defining filters.Regular Expression contain 
+a series of characters that define a pattern of text to be matched and to make specialized ,or general.
+3.
+Square brackets match something that we kind of dont know about a string we are looking for.
+4.
+The compile()function takes as input a simple regular expresssion
+ and produces a compiled expression that can be used with the step()and advance () functions.
+5.
+We can combine a regular expression pattern into pattern objects, which can be used for pattern matching.
+ It also helps to search a pattern again without rewriting it
+6.
+Python has a module named re to work with RegEx.
+ Here's an example: import re pattern = '^a...s$' test_string = 'abyss' result = re. match(pattern, test_string)
+ if result: print("Search successful.") else: print("Search unsuccessful.")
+7.
+The vertical bar is a regex "or" means "a or b"
+ Square brackets are a character class meaning "any character from a or b. Character class is a shorthand for "or".
+8.
+Raw strings help you get the "source code" of a RegEx safely to the RegEx parser,
+ which will then assign meaning to character sequences like \d , \w , \n , etc.
+8.
+Raw strings help you get the "source code" of a RegEx safely to the RegEx parser,
+ which will then assign meaning to character sequences like \d , \w , \n , etc.
